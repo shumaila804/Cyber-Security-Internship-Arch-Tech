@@ -74,7 +74,7 @@ A controlled simulation of a keylogger to understand how keystroke logging attac
 ├── key_log.txt
 ├── Submission_Screenshots.docx
 └── README.md
-###🚀 How to Run
+🚀 How to Run
 Clone the repository
 git clone https://github.com/shumaila804/Cyber-Security-Internship-Arch-Tech.git
 Install dependencies
@@ -83,13 +83,14 @@ Run the sniffer
 python sniffer.py
 Run the keylogger (for lab use only)
 python keylogger.py
-####⚠️ Ethical Notice
+⚠️ Ethical Notice
 These tools are developed strictly for educational and defensive security research purposes only.
 Unauthorized use on systems or networks without permission is illegal and unethical.
 
-####🏁 Conclusion
-This project strengthened my foundation in network security and host-based monitoring. It provided real-world exposure to traffic analysis and malware behavior simulation in a controlled environment.
+🏁 Conclusion
+This project strengthened my foundation in network security and host-based monitoring.
 
 🌟 Author
 Shumaila Arif
-Cyber Security Intern – Arch Technologies 
+Cyber Security Intern – Arch Technologies
+
