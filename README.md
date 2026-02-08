@@ -1,99 +1,90 @@
-🛡️ Cyber Security Internship – Month 1 Project
+# 🛡️ Cyber Security Internship – Month 1 Project  
 
-Organization: Arch Technologies
-Intern Name: Shumaila Arif
-Domain: Cyber Security
+**Organization:** Arch Technologies  
+**Intern Name:** Shumaila Arif  
+**Domain:** Cyber Security  
 
-📌 Overview
+---
 
-This repository contains the work completed during the first month of my Cyber Security internship at Arch Technologies. The focus of this phase was to build practical tools for network traffic analysis and host-based monitoring.
+## 📌 Overview  
+
+This repository contains the work completed during the first month of my Cyber Security internship at **Arch Technologies**. The focus of this phase was to build practical tools for **network traffic analysis** and **host-based monitoring**.
 
 The projects helped me understand how attackers intercept data and how defenders monitor systems to protect sensitive information.
 
-🎯 Objectives
+---
 
-Understand real-time network packet flow.
+## 🎯 Objectives  
 
-Analyze protocols and IP communication.
+- Understand real-time network packet flow.  
+- Analyze protocols and IP communication.  
+- Simulate host-based monitoring attacks ethically.  
+- Learn defensive security techniques.  
+- Improve Python scripting for cyber security.  
 
-Simulate host-based monitoring attacks ethically.
+---
 
-Learn defensive security techniques.
+## 🛰️ Task 1: Network Traffic Sniffer  
 
-Improve Python scripting for cyber security.
-
-🛰️ Task 1: Network Traffic Sniffer
-🔍 Description
+### 🔍 Description  
 
 A Python-based packet sniffer that captures and analyzes live network traffic. It extracts important details such as protocol types, source and destination IP addresses, and packet sizes.
 
-⚙️ Features
+### ⚙️ Features  
 
-Captures TCP and UDP packets.
+- Captures TCP and UDP packets.  
+- Displays source and destination IPs.  
+- Logs all traffic in `packet_log.txt`.  
+- Helps analyze unencrypted network communication.  
 
-Displays source and destination IPs.
+### 🔐 Security Learning  
 
-Logs all traffic in packet_log.txt.
+- Demonstrates how attackers intercept data.  
+- Highlights the importance of HTTPS, SSL, and TLS.  
+- Improves understanding of network monitoring.  
 
-Helps analyze unencrypted network communication.
+---
 
-🔐 Security Learning
+## ⌨️ Task 2: Keylogging Simulation  
 
-Demonstrates how attackers intercept data.
-
-Highlights the importance of HTTPS, SSL, and TLS.
-
-Improves understanding of network monitoring.
-
-⌨️ Task 2: Keylogging Simulation
-🔍 Description
+### 🔍 Description  
 
 A controlled simulation of a keylogger to understand how keystroke logging attacks work at the system level.
 
-⚙️ Features
+### ⚙️ Features  
 
-Captures keyboard events using Python.
+- Captures keyboard events using Python.  
+- Logs alphanumeric and special keys.  
+- Stores data in `key_log.txt`.  
 
-Logs alphanumeric and special keys.
+### 🛡️ Security Learning  
 
-Stores data in key_log.txt.
+- Shows how credentials can be stolen.  
+- Emphasizes the need for MFA.  
+- Encourages use of anti-malware protection.  
 
-🛡️ Security Learning
+---
 
-Shows how credentials can be stolen.
+## 📂 Repository Structure  
 
-Emphasizes the need for MFA.
-
-Encourages use of anti-malware protection.
-
-📂 Repository Structure
+```text
 ├── sniffer.py
 ├── keylogger.py
 ├── packet_log.txt
 ├── key_log.txt
 ├── Submission_Screenshots.docx
 └── README.md
-
 🚀 How to Run
-
 Clone the repository
-
 git clone https://github.com/shumaila804/Cyber-Security-Internship-Arch-Tech.git
 
-
-
 Install dependencies
-
 pip install scapy pynput
 
-
 Run the sniffer
-
 python sniffer.py
 
-
 Run the keylogger (for lab use only)
-
 python keylogger.py
 
 ⚠️ Ethical Notice
@@ -109,6 +100,3 @@ This project strengthened my foundation in network security and host-based monit
 
 Shumaila Arif
 Cyber Security Intern – Arch Technologies
-
-
-Is this conversation helpful so far?
