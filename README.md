@@ -1,61 +1,114 @@
-🛡️ Cyber Security Internship - Month 1 Project Report
+🛡️ Cyber Security Internship – Month 1 Project
 
-Organization: Arch-Technologies Intern Name: Shumaila Arif Domain: Cyber Security 
+Organization: Arch Technologies
+Intern Name: Shumaila Arif
+Domain: Cyber Security
 
-📌 Project Overview
-This repository contains the technical tasks completed during the first month of my Cyber Security internship at Arch Technologies. The focus of this month was on developing tools for network traffic analysis and understanding the mechanics of host-based monitoring through keystroke logging.
+📌 Overview
+
+This repository contains the work completed during the first month of my Cyber Security internship at Arch Technologies. The focus of this phase was to build practical tools for network traffic analysis and host-based monitoring.
+
+The projects helped me understand how attackers intercept data and how defenders monitor systems to protect sensitive information.
+
+🎯 Objectives
+
+Understand real-time network packet flow.
+
+Analyze protocols and IP communication.
+
+Simulate host-based monitoring attacks ethically.
+
+Learn defensive security techniques.
+
+Improve Python scripting for cyber security.
 
 🛰️ Task 1: Network Traffic Sniffer
-Objective
-The goal of this project was to build a network sniffer in Python capable of capturing and analyzing real-time network traffic. This tool helps in understanding how data flows across a network and how packets are structured.
+🔍 Description
 
+A Python-based packet sniffer that captures and analyzes live network traffic. It extracts important details such as protocol types, source and destination IP addresses, and packet sizes.
 
-Technical Implementation
+⚙️ Features
 
-Language: Developed using Python.
+Captures TCP and UDP packets.
 
+Displays source and destination IPs.
 
-Functionality: The script captures live packets and extracts critical information, including protocol types (TCP, UDP), source and destination IP addresses, and packet sizes.
+Logs all traffic in packet_log.txt.
 
+Helps analyze unencrypted network communication.
 
-Data Logging: All captured traffic is automatically logged into packet_log.txt for forensic and security analysis.
+🔐 Security Learning
 
-Security Insights
-Through this task, I analyzed how unencrypted data can be intercepted by unauthorized parties. This highlights the critical importance of using encrypted protocols like HTTPS, SSL, and TLS to protect data integrity.
+Demonstrates how attackers intercept data.
+
+Highlights the importance of HTTPS, SSL, and TLS.
+
+Improves understanding of network monitoring.
 
 ⌨️ Task 2: Keylogging Simulation
-Objective
-This task involved simulating a basic keylogger in a controlled and safe environment to understand the mechanism of keystroke logging attacks.
+🔍 Description
 
-Technical Implementation
+A controlled simulation of a keylogger to understand how keystroke logging attacks work at the system level.
 
-Method: Used Python scripts to capture and monitor local keyboard events.
+⚙️ Features
 
+Captures keyboard events using Python.
 
-Storage: Captured keys are securely logged into a local file named key_log.txt.
+Logs alphanumeric and special keys.
 
+Stores data in key_log.txt.
 
-Analysis: The script is designed to handle both alphanumeric characters and special keys (such as Space, Enter, and Shift) to provide a comprehensive log of user activity.
+🛡️ Security Learning
 
-Risk Assessment & Mitigation
-Keyloggers represent a significant threat, often used for credential theft. By simulating this attack, I evaluated the risks associated with such malware and the necessity of implementing defensive measures, such as:
+Shows how credentials can be stolen.
 
+Emphasizes the need for MFA.
 
-Anti-keylogging software.
-
-
-Multi-Factor Authentication (MFA) to prevent unauthorized access even if passwords are compromised.
+Encourages use of anti-malware protection.
 
 📂 Repository Structure
-sniffer.py: The main script for network packet sniffing.
+├── sniffer.py
+├── keylogger.py
+├── packet_log.txt
+├── key_log.txt
+├── Submission_Screenshots.docx
+└── README.md
 
-keylogger.py: The script for keystroke logging simulation.
+🚀 How to Run
 
-packet_log.txt: Log file containing captured network traffic data.
+Clone the repository
 
-key_log.txt: Log file containing recorded keystrokes.
+git clone https://github.com/shumaila804/Cyber-Security-Internship-Arch-Tech.git
 
-Submission_Screenshots.docx: Detailed report with visual evidence of the tasks.
+
+
+Install dependencies
+
+pip install scapy pynput
+
+
+Run the sniffer
+
+python sniffer.py
+
+
+Run the keylogger (for lab use only)
+
+python keylogger.py
+
+⚠️ Ethical Notice
+
+These tools are developed strictly for educational and defensive security research purposes only.
+Unauthorized use on systems or networks without permission is illegal and unethical.
 
 🏁 Conclusion
-The completion of these tasks has provided a solid foundation in network monitoring and host-based security analysis. All source code and logs have been compiled according to the submission requirements of Arch-Technologies
+
+This project strengthened my foundation in network security and host-based monitoring. It provided real-world exposure to traffic analysis and malware behavior simulation in a controlled environment.
+
+🌟 Author
+
+Shumaila Arif
+Cyber Security Intern – Arch Technologies
+
+
+Is this conversation helpful so far?
