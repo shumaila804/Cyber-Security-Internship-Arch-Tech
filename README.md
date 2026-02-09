@@ -79,6 +79,7 @@ A controlled simulation of a keylogger to understand how keystroke logging attac
 ## 🚀 How to Run  
 
 ### 1. Clone the repository  
+```bash
 git clone https://github.com/shumaila804/Cyber-Security-Internship-Arch-Tech.git
 ```
 
@@ -86,6 +87,7 @@ git clone https://github.com/shumaila804/Cyber-Security-Internship-Arch-Tech.git
 ```bash
 pip install scapy pynput
 ```
+
 
 ### 3. Run the Sniffer
 ```bash
