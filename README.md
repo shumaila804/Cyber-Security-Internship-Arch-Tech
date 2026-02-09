@@ -59,7 +59,8 @@ A Python-based packet sniffer that captures and analyzes live network traffic. I
 
 - Network Visibility: Improved practical understanding of Network Intrusion Detection, learning how defenders use traffic patterns to identify suspicious behavior or unauthorized data exfiltration.
 
-Packet Forensics: Gained hands-on experience in deconstructing network headers, which is a fundamental skill for investigating security breaches and network troubleshooting.
+- Packet Forensics: Gained hands-on experience in deconstructing network headers, which is a fundamental skill for investigating security breaches and network troubleshooting.
+  
 ---
 
 ## ⌨️ Task 2: Keylogging Simulation  
