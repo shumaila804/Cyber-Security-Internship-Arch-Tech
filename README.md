@@ -8,9 +8,9 @@
 
 ## 📌 Overview  
 
-This repository contains the work completed during the first month of my Cyber Security internship at **Arch Technologies**. The focus of this phase was to build practical tools for **network traffic analysis** and **host-based monitoring**.
+This repository contains the work completed during the first month of my Cyber Security internship at Arch Technologies. The focus of this phase was to build practical tools for network traffic analysis and host-based monitoring.  
 
-The projects helped me understand how attackers intercept data and how defenders monitor systems to protect sensitive information.
+The projects helped me understand how attackers intercept data and how defenders monitor systems to protect sensitive information.  
 
 ---
 
@@ -28,7 +28,7 @@ The projects helped me understand how attackers intercept data and how defenders
 
 ### 🔍 Description  
 
-A Python-based packet sniffer that captures and analyzes live network traffic. It extracts important details such as protocol types, source and destination IP addresses, and packet sizes.
+A Python-based packet sniffer that captures and analyzes live network traffic. It extracts important details such as protocol types, source and destination IP addresses, and packet sizes.  
 
 ### ⚙️ Features  
 
@@ -49,7 +49,7 @@ A Python-based packet sniffer that captures and analyzes live network traffic. I
 
 ### 🔍 Description  
 
-A controlled simulation of a keylogger to understand how keystroke logging attacks work at the system level.
+A controlled simulation of a keylogger to understand how keystroke logging attacks work at the system level.  
 
 ### ⚙️ Features  
 
@@ -65,21 +65,22 @@ A controlled simulation of a keylogger to understand how keystroke logging attac
 
 ---
 
-## 📁 Project Structure
+## 📁 Project Structure  
 
-├── sniffer.py
-├── keylogger.py
-├── packet_log.txt
-├── key_log.txt
-├── Submission_Screenshots.docx
-└── README.md
-
+```text
+├── sniffer.py  
+├── keylogger.py  
+├── packet_log.txt  
+├── key_log.txt  
+├── Submission_Screenshots.docx  
+└── README.md  
 
 ---
 
-## 🚀 How to Run
+## 🚀 How to Run  
 
-### 1️⃣ Clone the repository
+### 1️⃣ Clone the repository  
+
 ```bash
 git clone https://github.com/shumaila804/Cyber-Security-Internship-Arch-Tech.git
 cd Cyber-Security-Internship-Arch-Tech
