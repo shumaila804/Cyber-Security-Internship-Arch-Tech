@@ -8,9 +8,9 @@
 
 ## 📌 Overview  
 
-This repository contains the work completed during the first month of my Cyber Security internship at Arch Technologies. The focus of this phase was to build practical tools for network traffic analysis and host-based monitoring.  
+This repository contains the work completed during the first month of my Cyber Security internship at **Arch Technologies**. The focus of this phase was to build practical tools for **network traffic analysis** and **host-based monitoring**.
 
-The projects helped me understand how attackers intercept data and how defenders monitor systems to protect sensitive information.  
+The projects helped me understand how attackers intercept data and how defenders monitor systems to protect sensitive information.
 
 ---
 
@@ -28,7 +28,7 @@ The projects helped me understand how attackers intercept data and how defenders
 
 ### 🔍 Description  
 
-A Python-based packet sniffer that captures and analyzes live network traffic. It extracts important details such as protocol types, source and destination IP addresses, and packet sizes.  
+A Python-based packet sniffer that captures and analyzes live network traffic. It extracts important details such as protocol types, source and destination IP addresses, and packet sizes.
 
 ### ⚙️ Features  
 
@@ -49,7 +49,7 @@ A Python-based packet sniffer that captures and analyzes live network traffic. I
 
 ### 🔍 Description  
 
-A controlled simulation of a keylogger to understand how keystroke logging attacks work at the system level.  
+A controlled simulation of a keylogger to understand how keystroke logging attacks work at the system level.
 
 ### ⚙️ Features  
 
@@ -65,45 +65,58 @@ A controlled simulation of a keylogger to understand how keystroke logging attac
 
 ---
 
-## 📁 Project Structure  
+## 📂 Repository Structure  
 
 ```text
-├── sniffer.py  
-├── keylogger.py  
-├── packet_log.txt  
-├── key_log.txt  
-├── Submission_Screenshots.docx  
-└── README.md  
+├── sniffer.py
+├── keylogger.py
+├── packet_log.txt
+├── key_log.txt
+├── Submission_Screenshots.docx
+└── README.md
 
 ---
-
 ## 🚀 How to Run  
 
-### 1️⃣ Clone the repository  
+### Clone the repository  
 
 ```bash
 git clone https://github.com/shumaila804/Cyber-Security-Internship-Arch-Tech.git
-cd Cyber-Security-Internship-Arch-Tech
 
-2️⃣ Install dependencies
+## Install dependencies
+```bash
 pip install scapy pynput
 
-3️⃣ Run the sniffer
+
+
+## Run the sniffer
+```bash
 python sniffer.py
 
-4️⃣ Run the keylogger (for lab use only)
+
+## Run the keylogger
+```bash
 python keylogger.py
 
-⚠️ Ethical Notice
+###⚠️ Ethical Notice
 
-These tools are developed strictly for educational and defensive security research purposes only.
-Unauthorized use on systems or networks without permission is illegal and unethical.
+- These tools are developed strictly for educational and defensive security research purposes only.
+- Unauthorized use on systems or networks without permission is illegal and unethical.
 
-🏁 Conclusion
+---
 
-This project helped me strengthen my foundation in network security and host-based monitoring, giving practical exposure to packet sniffing and keylogging in a safe lab environment.
 
-🌟 Author
+###🏁 Conclusion
 
-Shumaila Arif
+-This project strengthened my foundation in network security and host-based monitoring.
+- It provided real-world exposure to traffic analysis and malware behavior simulation -in a controlled environment.
+
+---
+
+
+###🌟 Author
+
+-Shumaila Arif
 Cyber Security Intern – Arch Technologies
+
+---
